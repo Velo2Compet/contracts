@@ -2,7 +2,7 @@ pragma solidity 0.4.24;
 
 import "openzeppelin-eth/contracts/ownership/Ownable.sol";
 
-import "./BaseTokenMonetaryPolicy.sol"; //mykonos
+import "./BaseTokenMonetaryPolicy.sol";
 
 
 /**
