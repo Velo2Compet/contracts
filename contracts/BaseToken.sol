@@ -4,7 +4,7 @@ import "openzeppelin-eth/contracts/math/SafeMath.sol";
 import "openzeppelin-eth/contracts/ownership/Ownable.sol";
 import "openzeppelin-eth/contracts/token/ERC20/ERC20Detailed.sol";
 
-import "./lib/SafeMathInt.sol"; // test
+import "./lib/SafeMathInt.sol";
 import "./ERC677Token.sol";
 
 
