@@ -5,7 +5,7 @@ import "openzeppelin-eth/contracts/ownership/Ownable.sol";
 
 import "./lib/SafeMathInt.sol";
 import "./lib/UInt256Lib.sol";
-import "./BaseToken.sol"; // taberclac
+import "./BaseToken.sol";
 
 
 interface IOracle {
