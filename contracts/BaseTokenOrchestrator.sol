@@ -8,7 +8,7 @@ import "./BaseTokenMonetaryPolicy.sol";
 /**
  * @title BaseTokenOrchestrator
  * @notice The orchestrator is the main entry point for rebase operations. It coordinates the policy
- * actions with external consumers. arrrrrrr
+ * actions with external consumers.
  */
 contract BaseTokenOrchestrator is Ownable {
 
