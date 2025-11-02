@@ -10,7 +10,7 @@ import "./BaseTokenMonetaryPolicy.sol";
  * @notice The orchestrator is the main entry point for rebase operations. It coordinates the policy
  * actions with external consumers.
  */
-contract BaseTokenOrchestrator is Ownable { // dedsdezzef
+contract BaseTokenOrchestrator is Ownable {
 
     struct Transaction {
         bool enabled;
