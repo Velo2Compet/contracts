@@ -8,7 +8,7 @@ import "./lib/UInt256Lib.sol";
 import "./BaseToken.sol";
 
 
-interface IOracle {
+interface IOracle { // caca
     function getData() external returns (uint256, bool);
 }
 
