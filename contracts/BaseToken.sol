@@ -18,7 +18,7 @@ import "./ERC677Token.sol";
  *      We support splitting the currency in expansion and combining the currency on contraction by
  *      changing the exchange rate between the hidden 'shares' and the public 'BASE'.
  */
-contract BaseToken is ERC20Detailed, ERC677Token, Ownable {
+contract BaseToken is ERC20Detailed, ERC677Token, Ownable { // A FZFE
     // PLEASE READ BEFORE CHANGING ANY ACCOUNTING OR MATH
     // Anytime there is division, there is a risk of numerical instability from rounding errors. In
     // order to minimize this risk, we adhere to the following guidelines:
