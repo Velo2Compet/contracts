@@ -4,7 +4,7 @@ import "./interfaces/ERC677.sol";
 import "./interfaces/ERC677Receiver.sol";
 
 
-contract ERC677Token is ERC677 { //dddd
+contract ERC677Token is ERC677 {
     /**
     * @dev transfer token to a contract address with additional data if the recipient is a contact.
     * @param _to The address to transfer to.
